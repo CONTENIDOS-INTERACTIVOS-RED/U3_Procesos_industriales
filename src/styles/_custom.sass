@@ -15,17 +15,70 @@
 .brounded-sm
   border-radius: 8px !important
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.j1
+  display: grid
+  align-items: center 
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem   
+
+.br
+  &-1
+    border-radius: 10px !important    
+
+.color
+  &-1
+    color: #215A78 !important     
+
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FFEFC0
   &-2
-    background-color: #FFFBE8
+    background-color: #605F5F
   &-3
-    background-color: #F0E9F6
+    background-color: #EAF5FB
   &-4
-    background-color: #EAF8FD
+    background-color: #B1DBF0
+  &-5
+    background-color: #215A78
+  &-6
+    background-color: #E6E6E6       
+  &-7
+    background-color: #FEF5ED
+  &-8
+    background-color: #FDE4CC
+  &-9
+    background-color: #F0F7FC
+  &-10
+    background-color: #E2F1F9
+  &-11
+    background-color: #C8E5F4
+  &-12
+    background-color: #77C0E5
+  &-13
+    background-color: #628AA0
+  &-14
+    background-color: #D7ECF7
+  &-15
+    background-color: #B1DBF0 
+  &-16
+    background-color: #B1DBF0                                        
   &-info
-    background-color: #E8EEFD
+    background-image: url("../assets/bg/bg-info.png") !important
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -41,24 +94,113 @@
 
 // Full Width Background
 .bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
+  &-1
+    background-size: 100% 79%
+    background-repeat: no-repeat
+    background-position: top
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+  &-2
+    background-size: 100% 65%
+    background-repeat: no-repeat
+    background-position: top
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem  
+
+  &-3
+    background-size: 100% 73%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem  
+
+  &-4
+    background-size: 100% 72.5%
+    background-repeat: no-repeat
+    background-position: bottom !important
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem  
 
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
-    background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.png") !important
+  &-3
+    background-image: url("../assets/bg/bg3.png") !important 
+    background-position: center   
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
+
+.bg
+  &-h85
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 0%
+      left: 0
+      width: 100%
+      height: 82%
+      transform: translateY(-0%)
+      background-color: #FDE4CC
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%
+
+  &-h86
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 0%
+      left: 0
+      width: 100%
+      height: 82%
+      transform: translateY(-0%)
+      background-color: #BDF7E7
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%    
+
+  &-h87
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 8%
+      left: 0
+      width: 100%
+      height: 90%
+      transform: translateY(-0%)
+      background-color: #FDECC1
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%     
 
 // Variables
 $custom-card-border-radius: 0px
@@ -141,6 +283,9 @@ $custom-card-img-height: 322px
 
 .shadow-soft
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+
+.sha
+  border: 1px solid #70707023  
 
 .tabs-content
   background-color: #F4F4F4
@@ -227,3 +372,29 @@ th.bg-color-tabla
 
 .bordes
   border: 1px solid lightgray !important
+
+.slyder-a__tipo-b
+  background-color: #7B3289 !important    
+.slyder-a__bullets__item
+  background-color: #C3A2CA !important
+  border-color: #C3A2CA !important
+.slyder-a__bullets__item--active
+  background-color: #E25CFA !important  
+
+.acordion__header
+  background-color: #FFEFC0 !important
+
+.acordion__header--active
+  background-color: #FFCC33 !important
+  h4, i
+    color: #000 !important
+
+.acordion__contenido
+  background-color: #FFF9E9 !important  
+
+.tabla-a-1 thead 
+  background-color: #215A78 !important
+  *
+    color: white
+.tabla-a-1 td
+  border: 1px solid #CACACA !important          
