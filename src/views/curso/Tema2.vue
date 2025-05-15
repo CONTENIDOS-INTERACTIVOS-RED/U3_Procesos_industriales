@@ -188,7 +188,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") KPIs
             p.mb-4(data-aos="fade-right") En el PDF #[b KPIs], se estudia la aplicación de herramientas como el OEE, la tasa de defectos, el consumo energético, el tiempo de ciclo y los índices de seguridad, que permiten evaluar eficiencia, calidad y sostenibilidad en los procesos. A través de ejemplos prácticos, se analiza cómo estos KPIs ayudan a detectar oportunidades de mejora y optimizar el funcionamiento de sistemas productivos reales.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

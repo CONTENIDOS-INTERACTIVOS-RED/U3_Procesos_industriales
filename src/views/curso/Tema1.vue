@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Título tema'")
+  BannerInterno(:subTitulo="'1. Estrategias de control y monitoreo de procesos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
     .bg-full-width.bg-h85.mb-5
       .px-4.px-md-5
@@ -142,7 +142,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Sistemas SCADA: supervisión y control en tiempo real 
             p.mb-4(data-aos="fade-right") En el PDF #[b Sistemas SCADA], se explora cómo estas plataformas permiten monitorear, automatizar y optimizar procesos mediante sensores, análisis de datos y tecnologías de Inteligencia Artificial, aplicadas en sectores como energía, manufactura y tratamiento de agua. A través de ejemplos prácticos, se ilustra cómo implementar y aprovechar un sistema SCADA para tomar decisiones informadas, en entornos industriales complejos.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -221,8 +221,8 @@
           .col-lg-auto
             img.img-a.img-t(src="@/assets/curso/temas/13.svg")        
           .col-lg.text-white 
-            h5 Ejemplo con IA.  
-            p.mb-0 En una línea de ensamblaje, un algoritmo de Inteligencia Artificial puede identificar patrones en los datos de producción y predecir cuándo una máquina necesita mantenimiento antes de que falle, evitando paradas no planificadas y aumentando la eficiencia del proceso.  
+            h5 Ejemplo. Control de temperatura en una planta de producción de lácteos.
+            p.mb-0 En la producción de leche y yogurt, la temperatura de pasteurización es clave. Si no se mantiene dentro del rango adecuado, los productos pueden contaminarse.
 
     p(data-aos="fade-down") Aplicación del paso a paso:
 
@@ -310,7 +310,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Mantenimiento predictivo con IA 
             p.mb-4(data-aos="fade-right") En el PDF #[b Mantenimiento predictivo con IA], se explican paso a paso las fases de implementación, desde la recolección de datos hasta la generación de alertas automáticas, integrando tecnologías como sensores IoT y algoritmos de Machine Learning. A través de ejemplos prácticos, el estudiante comprenderá cómo aplicar la Inteligencia Artificial para optimizar la vida útil de los equipos y garantizar la continuidad de los procesos industriales.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
